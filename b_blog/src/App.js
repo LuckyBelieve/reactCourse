@@ -4,7 +4,7 @@ import Home from './home';
 function App() {
   return (
    <Router>
-      <body>
+      <div>
        <Navbar />
        <main className="app">
        <Switch>
@@ -13,7 +13,7 @@ function App() {
         </Route>
        </Switch>
        </main>
-      </body>
+      </div>
     </Router>
   );
 }
