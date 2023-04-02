@@ -1,0 +1,40 @@
+.navbar{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.links{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5em;
+}
+.links a{
+  text-decoration: none;
+  color: black;
+  height: 30px;
+  background-color: rgb(204, 141, 118);
+  border-radius: 5px;
+  padding: 5px;
+}
+.navbar>h1{
+   font-size: 2em;
+   width: 20%;
+   text-align: center;
+}
+.mainContainer{
+  width: 60%;
+  margin: 0px auto;
+  padding: 10px;
+}
+.eachBlog{
+  display: flex;
+  width: 100%; 
+  padding: 10px; 
+  border-radius: 10px;
+  justify-content: space-between;
+  border: 2px solid rgb(204, 141, 118)  ;
+  height: 100px;
+}
