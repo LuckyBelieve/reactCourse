@@ -1,12 +1,12 @@
 import Navbar from './navbar';
-import { BrowserRouter as Route,Switch } from 'react-router-dom';
+import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
 import Home from './home';
 import BlogDetails from './blogDetails';
 import CreateNew from './newBlog';
 import NotFound from './notFound';
 function App() {
   return (
-   <Route>
+   <Router>
       <div>
        <Navbar />
        <main className="app">
@@ -26,7 +26,7 @@ function App() {
        </Switch>
        </main>
       </div>
-    </Route>
+    </Router>
   );
 }
 
