@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
-
 const CreateNew = () => {
     const [title,seTitle] = useState('')
     const [author,setAuthor] = useState('')
@@ -32,6 +31,7 @@ const CreateNew = () => {
             value={author}
             onChange={(e)=>setAuthor(e.target.value)}
             />
+
             <label><strong>blog title:</strong></label>
             <input 
             type="text"

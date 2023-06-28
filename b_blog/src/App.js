@@ -1,4 +1,4 @@
-import Navbar from './navbar';
+import Navbar from './components/navbar';
 import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
 import Home from './home';
 import BlogDetails from './blogDetails';
